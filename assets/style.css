@@ -2,3 +2,18 @@
     padding: 0;
     margin: 0;
 }
+
+#titulo {
+background-color: #E7F5A4;
+text-align: center;
+padding: 5px;
+font-family: 'Teko', sans-serif;
+font-size: 30px;
+border-bottom-color: black;
+
+
+}
+
+body {
+    background-color: #F1FAC3 ;
+}
