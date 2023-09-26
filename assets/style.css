@@ -4,8 +4,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+    --color-1: #FAF3DD;
+    --color-2: #C8D5B9;
+    --color-3: #8FC0A9;
+    --color-4: #68B0AB;
+    --color-5: #696D7D;
+  }
+
 html {
-    background-color: #000;
+    background-color: var(--color-1);
 }
 
 body {
@@ -17,7 +25,7 @@ body {
     text-align: center;
     padding: 30px;
     font-size: 3em;
-    background-color:rgb(95, 158, 160);
+    background-color:var(--color-3);
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
     
@@ -27,7 +35,7 @@ body {
     margin: auto;
     flex: 1;
     width: 90%;
-    background-color: rgb(130, 213, 216);
+    background-color: var(--color-2);
 }
 
 
@@ -46,7 +54,7 @@ body {
     animation-name: fade;
     animation-duration: 0.25s;
     animation-iteration-count:1;
-    background-color: #fff;
+    background-color: var(--color-1);
     transform: scale(1.02);
     border-radius: 20px;
 }
@@ -58,20 +66,20 @@ a {
 }
 
 a:hover {
-    animation-name: moveline, grownavitem;
-    animation-duration: 0.5s;
+    animation-name: moveline;
+    animation-duration: 0.25s;
     animation-iteration-count:1;
-    text-decoration-color: #fff;
+    text-decoration-color: #000;
     text-decoration-thickness: 10px;
 }
 
 @keyframes fade {
-    0% {background-color: rgb(130, 213, 216);transform: scale(1);border-radius: 0px;}
-    25% {background-color: rgb(130, 213, 216);}
-    100% {background-color: #fff;transform: scale(1.02);border-radius: 20px;}
+    0% {background-color: var(--color-2);transform: scale(1);border-radius: 0px;}
+    25% {background-color: var(--color-2);}
+    100% {background-color: var(--color-1);transform: scale(1.02);border-radius: 20px;}
 }
 
 @keyframes moveline {
-    0% {text-decoration-color: #000;text-decoration-thickness: 2px;}
-    100% {text-decoration-color: #fff;text-decoration-thickness: 10px;}
+    0% {text-decoration-thickness: 2px;}
+    100% {text-decoration-thickness: 10px;}
 }
