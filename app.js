@@ -62,4 +62,4 @@ io.sockets.on('connection', function (socket) {
 
 app.use("/images", express.static("images"))
 app.use("/admin", express.static('src-admin'))
-app.use("/", express.static('src'))
+app.use("/", express.static('assets'))

@@ -1,19 +1,77 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#titulo {
-background-color: #E7F5A4;
-text-align: center;
-padding: 5px;
-font-family: 'Teko', sans-serif;
-font-size: 30px;
-border-bottom-color: black;
-
-
+html {
+    background-color: #000;
 }
 
 body {
-    background-color: #F1FAC3 ;
+    width: 70%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    padding: 30px;
+    font-size: 3em;
+    background-color:rgb(95, 158, 160);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    
+}
+
+.content {
+    margin: auto;
+    flex: 1;
+    width: 90%;
+    background-color: rgb(130, 213, 216);
+}
+
+
+@keyframes growvanitem {
+    0% {font-size: 0.5em;}
+    100% {font-size: 0.6em}
+}
+
+.item {
+    padding: 30px;
+    border-width: 30px;
+    border-color: #000;    
+}
+
+.item:hover {
+    animation-name: fade;
+    animation-duration: 0.25s;
+    animation-iteration-count:1;
+    background-color: #fff;
+    transform: scale(1.02);
+    border-radius: 20px;
+}
+
+a {
+    font-size: 0.5em;
+    color: #000;
+    text-decoration-thickness: 2px;
+}
+
+a:hover {
+    animation-name: moveline, grownavitem;
+    animation-duration: 0.5s;
+    animation-iteration-count:1;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 10px;
+}
+
+@keyframes fade {
+    0% {background-color: rgb(130, 213, 216);transform: scale(1);border-radius: 0px;}
+    25% {background-color: rgb(130, 213, 216);}
+    100% {background-color: #fff;transform: scale(1.02);border-radius: 20px;}
+}
+
+@keyframes moveline {
+    0% {text-decoration-color: #000;text-decoration-thickness: 2px;}
+    100% {text-decoration-color: #fff;text-decoration-thickness: 10px;}
 }
