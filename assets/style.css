@@ -86,7 +86,7 @@ a:hover {
 
 li{
     margin-left: 30px;
-
+    padding: 10px;
 }
 li::marker {
     content: "✦  ";
