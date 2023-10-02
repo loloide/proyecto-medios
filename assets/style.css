@@ -19,7 +19,8 @@ html {
 body {
     width: 70%;
     margin: auto;
-}
+    overflow-x: hidden; /* Hide vertical scrollbar */
+  }
 
 .title {
     text-align: center;
