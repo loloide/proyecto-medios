@@ -19,7 +19,8 @@ html {
 body {
     width: 70%;
     margin: auto;
-}
+    overflow-x: hidden; /* Hide vertical scrollbar */
+  }
 
 .title {
     text-align: center;
@@ -86,7 +87,7 @@ a:hover {
 
 li{
     margin-left: 30px;
-    margin-top: 5px;
+    padding: 10px;
 }
 li::marker {
     content: "✦  ";

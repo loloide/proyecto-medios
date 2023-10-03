@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Birmingham</title>
     <link href="./style.css" rel="stylesheet" type="text/css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
   <body>
     <div class="title">
@@ -20,7 +21,7 @@
         <a class="navbar-item" href="#propuestas">Propuestas</a>
       </nav>
     </div>
-    <div class="content">
+    <div id="content" class="content">
 
       <div class="item" id="personas">
         <h2>Personas</h2>
@@ -62,7 +63,10 @@
         </p>
       </div>
       
+      <div id="gol" style="position: absolute; z-index: -100; top: 0; left: 0;">
 
+      </div>
+      <script  src="game of life.js"></script>
     </div>
   </body>
     <footer>
