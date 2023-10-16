@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Birmingham</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="./style.css" rel="stylesheet" type="text/css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js" integrity="sha512-bcfltY+lNLlNxz38yBBm/HLaUB1gTV6I0e+fahbF9pS6roIdzUytozWdnFV8ZnM6cSAG5EbmO0ag0a/fLZSG4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
@@ -13,9 +17,9 @@
       <h1 style="border: 10px;border-color: black;">
         Escuela de Birmingham
       </h1>
+      <h2>Estudios culturales</h2>
       <nav>
         <a class="navbar-item" href="#personas">Personas</a>
-        <a class="navbar-item" href="#contexto">Contexto</a>
         <a class="navbar-item" href="#historia">Historia</a>
         <a class="navbar-item" href="#criticas">Criticas</a>
         <a class="navbar-item" href="#propuestas">Propuestas</a>
@@ -32,45 +36,88 @@
             <li>Stuart Hall<br> Nacido un 3 de febrero en Kingston, Jamaica, Teorico cultural y sociologo jamaiquino, afincado en inglaterra desde 1951 hasta su muerte, siendo uno de los principales fundadores de los estudios culturales.</li>
             <li>Raymond Williams<br> Nacido un 31 de agosto de 1921 en Llanvihangel Crucorney, Reino Unido,Fue un famoso historiador, novelista, critico, intelectual y teorico marxista galés, este realiza una reflexion en contra de la hegemonia, en la cual propone una contracultura, exponiendo que la hegemonia que propone Hall no es suficiente para el estudio de las expresiones culturales.</li>
             <li>Edward Thompson<br> Tambien nacido un 3 de febrero de 1924 en Oxford, Reino Unido, influenciado por Karl Marx, fue un historiador e intelectual britanico, que aporto demasiado a los estudio de movimientos sociales y culturales.</li>
-        </p>
-      </div>
-      <hr>
-      <div class="item" id="contexto">
-        <h2>Contexto</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum laudantium saepe, fugit at atque voluptatum fugiat iste incidunt nam aut dolore cupiditate tempore maxime necessitatibus animi ipsa dolorem aliquid.
+          </ul>
+          <div class="carrusel">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100 carrousel-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn7xIws6sAIocugxyoEn2s1CymVBE0_DPoy4ysdB4uN2uTv2FQ_KmtvYddwggYt7ZEEH4&usqp=CAU" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrousel-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY2eGqzS1_OD7CIwT-j3n9IxShGSrkPWpYEqRehyFKWORg4ziaqr3lgir94eWNpiHzu1A&usqp=CAU" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrousel-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuuuZQSMTg4CV51oETrv6LOwrMaFa2tVRYsz6QcgnD-5gkmOKHD_T4lA4syvoymJVbFyk&usqp=CAU" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 carrousel-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEURNw2RfeLztKA6SsHJpbMiLnNj055K6E4QFjZCHIiKcpTGk2McoWnHEo3jDjz0BAns&usqp=CAU" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div> 
+        </div> 
         </p>
       </div>
       <hr>
       <div class="item" id="historia">
         <h2>Historia</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore laudantium eum nihil assumenda illo animi impedit, voluptates doloremque illum culpa, reiciendis, ab exercitationem quas dolor veritatis natus doloribus eligendi voluptatum.
+          La escuela de Birmingham se fundó en torno a los años 50, en un contexto de postguerra y de afianzamiento del Estado de Bienestar en Inglaterra. La misma se institucionalizó en 1964 con la creación del “CENTER OF CONTEMPORARY CULTURES STUDIES" (CCCS). Bajo la influencia de su primer director Richard Hoggart (1964-1968), el mismo incluyó puntos de vista políticos, y críticas de la cultura popular, así como del capitalismo y de la cultura de masas.
+<br>Stuart Hall, su segundo director (1968-1979), dirigió los estudios hacia las relaciones entre ideología y media a través de estudiar los significados de los textos que estos crean​, también se estudiaron las subculturas sobre todo las subculturas jóvenes.
+<br>Richard Johnson fue el siguiente líder del CCCS (1979-1987), tomó el liderazgo en 1979  y desde este punto comenzó el declive de los estudios culturales británicos liderados por la universidad de Birmingham. Finalmente, el departamento de estudios culturales cerró en 2002 en torno a una gran polémica, por problemas económicos.
+
+          <br> Debido  esto analizan y critican para comprender la acción de los medios como sostén del status quo y herramientas para el control social, siendo imprescindible centrar la atención allí donde los efectos ideológicos se evidencian y expresan lo siguiente:
+          <ul>
+            <li>
+              La cultura no es una practica, ni es simplemente la descripcion de la suma de los hábitos y costumbres de una sociedad. pasa a traves de todas las practicas sociales y es la suma de sus interrelacion
+              <br> 
+              - Stuart Hall
+            </li>
+          </ul>
         </p>
       </div>
       <hr>
       <div class="item" id="criticas">
         <h2>Criticas</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore temporibus eveniet nostrum, quas accusantium, similique, dicta eaque atque suscipit excepturi perspiciatis? Ex, ducimus libero voluptates expedita velit inventore quis dignissimos.
+  
         </p>
       </div>
       <hr>
       <div class="item" id="propuestas">
         <h2>Propuestas</h2>
+        <br>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem culpa sint non eaque. Hic eaque magni id nesciunt officiis, sequi perferendis molestiae voluptatem nostrum quaerat in earum dolores numquam provident.
+          <strong>Subcultura</strong>: se refiere a un conjunto de comportamientos y creencias diferentes o alternativas a la cultura dominante de la que forman parte un grupos de personas y se distinguen por sus características de la sociedad tradicional, promueven sentido de pertenencia a los individuos 
+          <br>
+          <br>
+          <strong>Contracultura</strong>: engloba valores, ideas y actitudes que son opuestas o diferentes a las que imperan en la sociedad. existen determinados valores y comportamientos establecidos y aceptados socialmente y la contracultura es un movimiento que pretende poner de manifiesto su disconformidad ante lo que está preestablecido y establecido de manera general y aceptado por los individuos.
+
         </p>
       </div>
       
       <div id="gol" style="position: absolute; z-index: -100; top: 0; left: 0;">
-
+<!--
       </div>
-      <script  src="game of life.js"></script>
+      <script  src="game of life.js"></script> -->
     </div>
+    
   </body>
-    <footer>
-      <h5>Escuela de Birmingham</h5>
-      <p>Participantes del grupo: Lorenzo de la Cruz, Facundo Fernandez, Santino Fortunato y Benjamin Solis</p>
-    </footer>
+  
+<footer>
+  <h5>Escuela de Birmingham</h5>
+  <p>Participantes del grupo: <a class="somos" href="#loren">Lorenzo de la Cruz</a> , Facundo Fernandez, Santino Fortunato y Benjamin Solis</p>
+</footer>
+<div class="pibes" id="loren">
+  <img src="/assets/img/lorenzo.jfif" alt="loren" class="nosotros" >
+</div> 
 </html>
+
+  
