@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Escritorio/Proyecto Medios v0.1"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "proyecto-medios"
+	}
+}
