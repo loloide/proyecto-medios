@@ -11,8 +11,8 @@ var docHeight = Math.max( body.scrollHeight, body.offsetHeight, html.clientHeigh
 
 function setup() {
   var canvas = createCanvas(window.innerWidth, docHeight);
-  frameRate(20);
-  w = window.innerWidth / 80;
+  frameRate(20)
+  w = window.innerWidth / 120;
 
   canvas.parent("gol")
 
